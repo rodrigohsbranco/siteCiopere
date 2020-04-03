@@ -1,15 +1,20 @@
 <template>
   <div class="text-center">
-      <Cabecalho />
-      <Navbar />
-      <Banner />
-      <Sobre />
-      <Organograma />
-      <Destaques />
-      <Noticias />
-      <GestaoPessoas />
-      <Gestores />
-      <Rodape />
+      <div class="container-fluid">
+        <Cabecalho />
+        <Navbar />
+        <Banner />
+        <Sobre />
+        <Organograma />
+        <!--  <Destaques />-->
+        <Noticias /> 
+
+        <!-- aguardando ajustes -->
+        <!-- <GestaoPessoas /> -->
+
+        <Gestores />
+        <Rodape />
+      </div>
   </div>
 </template>
 
@@ -24,7 +29,6 @@ import Noticias from './components/Noticias'
 import GestaoPessoas from './components/GestaoPessoas'
 import Gestores from './components/Gestores'
 import Rodape from './components/Rodape'
-
 
 export default {
     components: {
