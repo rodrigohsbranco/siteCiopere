@@ -6,9 +6,3 @@ html {
 }
 html {overflow-x: hidden;}
 .container-fluid {padding: 0 !important;}
-
-@font-face {
-    font-family: "Futura";
-    font-weight: bold;
-    src: url('../assets/fontes/futura.ttf') format('truetype');
-  }
