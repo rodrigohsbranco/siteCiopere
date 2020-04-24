@@ -6,77 +6,89 @@
             </div>
         </div>
 
-        <div class="container"> 
-            <div class="row">
+        <div class="container-fluid"> 
+            <div class="container-fluid row rounded mx-auto">
 
-                <div class="col-2">
+                <div class="col-1 col-md ml-5 mr-0">
                     <!-- card -->
                     <div class="card">
-                        <img class="card-img-top" src="https://via.placeholder.com/100" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title nome"><strong>Nome</strong></h5>
-                            <p class="card-text profissao">Profissão</p>
-                            <p class="card-text setor"><strong>Setor</strong></p>
+                        <img class="card-img-top" src="../assets/images/manda-chuva.jpg" alt="Card image cap">
+                        <div class="card-body pl-0 pr-0">
+                            <h5 class="card-title nome"><strong>Assis</strong></h5>
+                            <p class="card-text profissao">Gerente de Centralizadora</p>
+                            <p class="card-text setor"><strong>Gerência</strong></p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-2">
+                <div class="col-1 col-md ml-0 mr-0">
                     <!-- card -->
                     <div class="card">
-                        <img class="card-img-top" src="https://via.placeholder.com/100" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title nome"><strong>Nome</strong></h5>
-                            <p class="card-text profissao">Profissão</p>
-                            <p class="card-text setor"><strong>Setor</strong></p>
+                        <img class="card-img-top" src="../assets/images/jerry.png" alt="Card image cap">
+                        <div class="card-body pl-0 pr-0">
+                            <h5 class="card-title nome"><strong>Eldonor</strong></h5>
+                            <p class="card-text profissao">Coordenador de Centralizadora</p>
+                            <p class="card-text setor"><strong>Imóveis Caixa</strong></p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-2">
+                <div class="col-1 col-md ml-0 mr-0">
                     <!-- card -->
                     <div class="card">
-                        <img class="card-img-top" src="https://via.placeholder.com/100" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title nome"><strong>Nome</strong></h5>
-                            <p class="card-text profissao">Profissão</p>
-                            <p class="card-text setor"><strong>Setor</strong></p>
+                        <img class="card-img-top" src="../assets/images/matheus.png" alt="Card image cap">
+                        <div class="card-body pl-0 pr-0">
+                            <h5 class="card-title nome"><strong>Matheus</strong></h5>
+                            <p class="card-text profissao">Coordenador de Centralizadora</p>
+                            <p class="card-text setor"><strong>Atendimento</strong></p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-2">
+                <div class="col-1 col-md ml-0 mr-0">
                     <!-- card -->
                     <div class="card">
-                        <img class="card-img-top" src="https://via.placeholder.com/100" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title nome"><strong>Nome</strong></h5>
-                            <p class="card-text profissao">Profissão</p>
-                            <p class="card-text setor"><strong>Setor</strong></p>
+                        <img class="card-img-top" src="../assets/images/ze-comeia.jpg" alt="Card image cap">
+                        <div class="card-body pl-0 pr-0">
+                            <h5 class="card-title nome"><strong>Elvis</strong></h5>
+                            <p class="card-text profissao">Coordenador de Centralizadora</p>
+                            <p class="card-text setor"><strong>Habitação</strong></p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-2">
+                <div class="col-1 col-md ml-0 mr-0">
                     <!-- card -->
                     <div class="card">
-                        <img class="card-img-top" src="https://via.placeholder.com/100" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title nome"><strong>Nome</strong></h5>
-                            <p class="card-text profissao">Profissão</p>
-                            <p class="card-text setor"><strong>Setor</strong></p>
+                        <img class="card-img-top" src="../assets/images/cleiton.png" alt="Card image cap">
+                        <div class="card-body pl-0 pr-0">
+                            <h5 class="card-title nome"><strong>Cleiton</strong></h5>
+                            <p class="card-text profissao">Coordenador de Centralizadora</p>
+                            <p class="card-text setor"><strong>João Pessoa</strong></p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-2">
+                <div class="col-1 col-md ml-0 mr-0">
                     <!-- card -->
                     <div class="card">
-                        <img class="card-img-top" src="https://via.placeholder.com/100" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title nome"><strong>Nome</strong></h5>
-                            <p class="card-text profissao">Profissão</p>
-                            <p class="card-text setor"><strong>Setor</strong></p>
+                        <img class="card-img-top" src="../assets/images/bruno.png" alt="Card image cap">
+                        <div class="card-body pl-0 pr-0">
+                            <h5 class="card-title nome"><strong>Bruno</strong></h5>
+                            <p class="card-text profissao">Coordenador de Centralizadora</p>
+                            <p class="card-text setor"><strong>Maceió</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1 col-md ml-0 mr-0">
+                    <!-- card -->
+                    <div class="card">
+                        <img class="card-img-top" src="../assets/images/paula.jpg" alt="Card image cap">
+                        <div class="card-body pl-0 pr-0">
+                            <h5 class="card-title nome"><strong>Paula</strong></h5>
+                            <p class="card-text profissao">Coordenadora de Centralizadora</p>
+                            <p class="card-text setor"><strong>Caruaru</strong></p>
                         </div>
                     </div>
                 </div>
@@ -94,13 +106,20 @@ export default {
 
 <style scoped>
 #mainGestores {
-    margin: 3em 0 7em; 
+    /* margin: 3em 0 7em; */
+    background-color: #EFF5F6;
+}
+.titulo {
+    font-size: 36px;
+    text-align: center;
+    color: #0071CF;
 }
 .card {
     margin: 2.5em 1em;
-    width: 150px;
-    float:left;
+    width: 170px;
+    /* float:left; */
     border: none !important;
+    background-color: #EFF5F6;
 }
 .card-img, .card-img-top {
     border-radius: 100%;

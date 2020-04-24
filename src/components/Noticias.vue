@@ -1,16 +1,8 @@
 <template>
-  <!-- <div id="mainNoticias">
-      <h1 class="titulo">Notícias e Publicações</h1>
-      <a class="todos" href="">TODOS</a>
-      <a class="noticias" href="">NOTÍCIAS</a>
-      <a class="informes" href="">INFORMES</a>
-      <a class="cartilhas" href="">CARTILHAS</a>
-      <a class="relampago" href="">AÇÃO RELÂMPAGO</a>
-  </div> -->
     <div class="container-fluid" id="noticias">
         <div class="container wrapper"> 
             <div class="row">            
-                <div class="col-12 my-5 text-left titulo">
+                <div class="col-12 my-5 text-left titulo noticias">
                     <h2>Notícias e Publicações</h2>
                 </div>
             </div>
@@ -19,31 +11,31 @@
                 <div class="col-12 text-center titulo">
                     <ul class="list-inline">
                         <li class="list-inline-item">
-                            <a href="#">TODOS</a>
+                            <a class="link-noticias" href="#">TODOS</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">NOTÍCIAS</a>
+                            <a class="link-noticias" href="#">NOTÍCIAS</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">INFORMES</a>
+                            <a class="link-noticias" href="#">INFORMES</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">CARTILHAS</a>
+                            <a class="link-noticias" href="#">CARTILHAS</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">AÇÃO RELÂMPAGO</a>
+                            <a class="link-noticias" href="#">AÇÃO RELÂMPAGO</a>
                         </li>
                     </ul>
 
                     <ul class="list-inline">
                         <li class="list-inline-item">
-                            <a href="#">2018</a>
+                            <a class="link-noticias" href="#">2018</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">2019</a>
+                            <a class="link-noticias" href="#">2019</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">2020</a>
+                            <a class="link-noticias" href="#">2020</a>
                         </li>
                     </ul>
                 </div>
@@ -69,7 +61,7 @@
                         @lazyLoadError="handleLazeLoadError">               
 
                         <div class="card">
-                            <img class="card-img-top" src="https://via.placeholder.com/100" alt="Card image cap">
+                            <img class="card-img-top" src="../assets/images/imgNovoAtende.png" alt="Card image cap">
                             <div class="card-body">
                                 <p class="card-text data"><small>{{data}}</small></p>
                                 <h5 class="card-title titulo"><strong>{{titulo}}</strong></h5>
@@ -79,7 +71,7 @@
                         </div>
 
                         <div class="card">
-                            <img class="card-img-top" src="https://via.placeholder.com/100" alt="Card image cap">
+                            <img class="card-img-top" src="../assets/images/imgImoveisCaixa.png" alt="Card image cap">
                             <div class="card-body">
                                 <p class="card-text data"><small>{{data}}</small></p>
                                 <h5 class="card-title titulo"><strong>{{titulo}}</strong></h5>
@@ -89,7 +81,7 @@
                         </div>
 
                         <div class="card">
-                            <img class="card-img-top" src="https://via.placeholder.com/100" alt="Card image cap">
+                            <img class="card-img-top" src="../assets/images/imgNoticiaAgiliza.png" alt="Card image cap">
                             <div class="card-body">
                                 <p class="card-text data"><small>{{data}}</small></p>
                                 <h5 class="card-title titulo"><strong>{{titulo}}</strong></h5>
@@ -99,7 +91,7 @@
                         </div>
                         
                         <div class="card">
-                            <img class="card-img-top" src="https://via.placeholder.com/100" alt="Card image cap">
+                            <img class="card-img-top" src="../assets/images/imgRelampago.png" alt="Card image cap">
                             <div class="card-body">
                                 <p class="card-text data"><small>{{data}}</small></p>
                                 <h5 class="card-title titulo"><strong>{{titulo}}</strong></h5>
@@ -206,37 +198,37 @@ export default {
 
         // Events listeners
         handleAfterChange(event, slick, currentSlide) {
-            console.log('handleAfterChange', event, slick, currentSlide);
+            //console.log('handleAfterChange', event, slick, currentSlide);
         },
         handleBeforeChange(event, slick, currentSlide, nextSlide) {
-            console.log('handleBeforeChange', event, slick, currentSlide, nextSlide);
+            //console.log('handleBeforeChange', event, slick, currentSlide, nextSlide);
         },
         handleBreakpoint(event, slick, breakpoint) {
-            console.log('handleBreakpoint', event, slick, breakpoint);
+            //console.log('handleBreakpoint', event, slick, breakpoint);
         },
         handleDestroy(event, slick) {
-            console.log('handleDestroy', event, slick);
+            //console.log('handleDestroy', event, slick);
         },
         handleEdge(event, slick, direction) {
-            console.log('handleEdge', event, slick, direction);
+            //console.log('handleEdge', event, slick, direction);
         },
         handleInit(event, slick) {
-            console.log('handleInit', event, slick);
+            //console.log('handleInit', event, slick);
         },
         handleReInit(event, slick) {
-            console.log('handleReInit', event, slick);
+            //console.log('handleReInit', event, slick);
         },
         handleSetPosition(event, slick) {
-            console.log('handleSetPosition', event, slick);
+            //console.log('handleSetPosition', event, slick);
         },
         handleSwipe(event, slick, direction) {
-            console.log('handleSwipe', event, slick, direction);
+           // console.log('handleSwipe', event, slick, direction);
         },
         handleLazyLoaded(event, slick, image, imageSource) {
-            console.log('handleLazyLoaded', event, slick, image, imageSource);
+            //console.log('handleLazyLoaded', event, slick, image, imageSource);
         },
         handleLazeLoadError(event, slick, image, imageSource) {
-            console.log('handleLazeLoadError', event, slick, image, imageSource);
+            //console.log('handleLazeLoadError', event, slick, image, imageSource);
         },
     },
 }
@@ -244,8 +236,8 @@ export default {
 
 <style>
     #noticias {
-        background-color: #f5f5f5;
-        padding: 3em 0 5em !important; 
+        background-color: #EFF5F6;
+        /* padding: 3em 0 5em !important;  */
     }
     #noticias .card {
         border: none;
@@ -258,27 +250,43 @@ export default {
     .slick-list {
         margin: 0 -10px !important;
     }
+    .noticias h2 {
+        /* height: 64px; */
+        font-family: Futura-Bold;
+        font-size: 36px;
+        line-height: 0px;
+        color: #0071CF;
+    }
+    .link-noticias {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 10px;
+        padding-left: 30px;
+        color: #48586C;
+    }
     .data {
         font-family: 'Futura';
         font-weight: bold;
-        font-size: 24px;
+        font-size: 18px;
         line-height: 36px;
         text-align: center;
         color: #005CA9;
     }
     .titulo {
         font-family: 'Open Sans', sans-serif;
-        font-size: 16px;
+        font-size: 24px;
         text-align: center;
         color: #005CA9;
     }
     .categoria {
         font-family: 'Open Sans', sans-serif;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 12px;
         line-height: 36px;
         text-align: center;
-        color: #005CA9;
+        color: #f39200;
     }
     .slick-prev:before, .slick-next:before {
         color: #005CA9;

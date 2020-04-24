@@ -1,0 +1,4 @@
+[0423/081012.995:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[0423/081013.005:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[0423/081013.006:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[0423/081013.006:ERROR:exception_snapshot_win.cc(98)] thread ID 20396 not found in process

@@ -1,12 +1,12 @@
 <template>
   <div class="text-center">
       <div class="container-fluid">
-        <Cabecalho />
-        <Navbar />
+        <!-- <Cabecalho /> -->
+        <!-- <Navbar /> -->
         <Banner />
         <Sobre />
         <Organograma />
-        <!--  <Destaques />-->
+        <Destaques />
         <Noticias /> 
 
         <!-- aguardando ajustes -->
